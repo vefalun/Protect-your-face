@@ -1,0 +1,5 @@
+glob
+torch
+pyautogui
+opencv-python
+tqdm
