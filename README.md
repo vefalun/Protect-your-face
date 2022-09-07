@@ -4,7 +4,7 @@
 We provide a detailed implementation method here. By following the steps below, you can run this algorithm directly even on the CPU of your own computer and maintain real-time performance. It should be noted that we provide pre-trained models that can be run directly, but in order to ensure the accuracy of the algorithm, we still recommend that you capture your own videos and train.
 
 ## Demo
-You can directly use our trained model for testing, but limited by the blogger's special dataset (only contains my own photos, fixed camera background), the accuracy may be terrible. Run the following code to test the pretrained model:
+You can directly use our trained model for testing, but limited by the blogger's special dataset (only contains my own photos, fixed camera background), the accuracy may be terrible. Download pretrained model from [https://pan.baidu.com/s/19npZHlu-xRA4WnEVX64BJA](https://pan.baidu.com/s/19npZHlu-xRA4WnEVX64BJA) (m57b) and put it in './save_model'. Run the following code to test the pretrained model:
 ```
 python main.py
 ```
